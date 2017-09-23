@@ -7,6 +7,7 @@ RUN npm install --global gulp && \
 	npm install gulp-csso && \
 	rm -rf /tmp/*
 
+
 USER $CURRUSER
 VOLUME /static
 WORKDIR /static
