@@ -8,7 +8,7 @@ RUN npm install --global gulp && \
 	rm -rf /tmp/*
 
 
-#USER $CURRUSER
+USER $CURRUSER
 VOLUME /static
 WORKDIR /static
 
